@@ -1,4 +1,4 @@
-%[text] # Run samples of the ServiceQueue simulation
+%[text] # Run samples of the ServiceQueue simulation Aiden Camilleri
 %[text] Collect statistics and plot histograms along the way.
 %%
 %[text] ## Set up
@@ -156,6 +156,7 @@ xlim(ax, [0, 2.0]);
 pause(2);
 %[text] Save the picture as a PDF file.
 exportgraphics(fig, "Time in system histogram.pdf");
+
 %[appendix]{"version":"1.0"}
 %---
 %[metadata:view]
