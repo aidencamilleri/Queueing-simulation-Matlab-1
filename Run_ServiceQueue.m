@@ -156,6 +156,10 @@ xlim(ax, [0, 2.0]);
 pause(2);
 %[text] Save the picture as a PDF file.
 exportgraphics(fig, "Time in system histogram.pdf");
+%[text] $L = \\frac{\\lambda}{\\mu - \\lambda} = \\frac{10}{12 - 10}  = 5$
+%[text] $L\_q = \\frac{\\lambda}{\\mu - \\lambda} - \\frac{\\lambda}{\\mu} = \\frac{10}{12 - 10} - \\frac{10}{12} = \\frac{25}{6} \\approx 4.167$
+%[text] $W = \\frac{1}{\\mu - \\lambda} = \\frac{1}{12-10} = \\frac{1}{2}$
+%[text] $W\_q = \\frac{\\lambda}{\\mu \* (\\mu - \\lambda)} = \\frac{10}{12 \* (12 - 10)} = \\frac{5}{12} \\approx 0.4167$
 
 %[appendix]{"version":"1.0"}
 %---
